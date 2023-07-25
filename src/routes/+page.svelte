@@ -32,7 +32,7 @@
     <div>
       <h3>Work</h3>
       <article class="row">
-        <img src="/images/red/logo-red-128x128.png" alt="RED logo" width="64" height="64" class="logo" />
+        <img src="{base}/images/red/logo-red-128x128.png" alt="RED logo" width="64" height="64" class="logo" />
         <div>
           <div class="inline-all">
             <h4>RED:&nbsp;</h4>
@@ -48,7 +48,7 @@
         </div>
       </article>
       <article class="row">
-        <img src="/images/strava/logo-strava-128x128.png" alt="Strava logo" width="64" height="64" class="logo" />
+        <img src="{base}/images/strava/logo-strava-128x128.png" alt="Strava logo" width="64" height="64" class="logo" />
         <div>
           <div class="inline-all">
             <h4>Strava:&nbsp;</h4>
@@ -65,7 +65,7 @@
       </article>
       <article class="row">
         <img
-          src="/images/instagram/logo-quad-128x128.png"
+          src="{base}/images/instagram/logo-quad-128x128.png"
           alt="GAS React Next Lambda logos"
           width="64"
           height="64"
@@ -86,7 +86,7 @@
         </div>
       </article>
       <article class="row">
-        <img src="/images/mercedes/logo-mercedes-128x128.png" alt="Mercedes logo" width="64" height="64" class="logo" />
+        <img src="{base}/images/mercedes/logo-mercedes-128x128.png" alt="Mercedes logo" width="64" height="64" class="logo" />
         <div>
           <div class="inline-all">
             <h4>Mercedes-Benz:&nbsp;</h4>
@@ -102,7 +102,7 @@
         </div>
       </article>
       <article class="row">
-        <img src="/images/disney/logo-disney-128x128.png" alt="Disney logo" width="64" height="64" class="logo" />
+        <img src="{base}/images/disney/logo-disney-128x128.png" alt="Disney logo" width="64" height="64" class="logo" />
         <div>
           <div class="inline-all">
             <h4>Disney Parks &amp; Resorts:&nbsp;</h4>
@@ -119,7 +119,7 @@
       </article>
       <article class="row">
         <img
-          src="/images/mailchimp/logo-mailchimp-128x128.png"
+          src="{base}/images/mailchimp/logo-mailchimp-128x128.png"
           alt="Mailchimp logo"
           width="64"
           height="64"
@@ -141,7 +141,7 @@
         </div>
       </article>
       <article class="row">
-        <img src="/images/samsung/logo-samsung-128x128.png" alt="Samsung logo" width="64" height="64" class="logo" />
+        <img src="{base}/images/samsung/logo-samsung-128x128.png" alt="Samsung logo" width="64" height="64" class="logo" />
         <div>
           <div class="inline-all">
             <h4>Samsung:&nbsp;</h4>

@@ -1,3 +1,7 @@
+<script>
+  import { base } from "$app/paths";
+</script>
+
 <main>
   <header>
     <div class="right-margin-lrg">
@@ -33,7 +37,7 @@
       </article>
       <h5>Screen Recording</h5>
       <article class="flex-horiz">
-        <video preload="auto" muted controls src="/video/instagram/ig-demo.mp4" poster="/images/instagram/poster.png" />
+        <video preload="auto" muted controls src="{base}/video/instagram/ig-demo.mp4" poster="{base}/images/instagram/poster.png" />
       </article>
     </div>
   </section>
