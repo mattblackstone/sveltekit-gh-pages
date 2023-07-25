@@ -820,6 +820,10 @@
 </main>
 
 <style lang="scss" global>
+  body {
+    overflow: hidden;
+  }
+  
   main {
     padding: 0;
     margin: 0;
