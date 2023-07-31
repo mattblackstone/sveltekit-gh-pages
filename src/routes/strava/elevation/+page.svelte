@@ -314,7 +314,7 @@
         "athlete-07",
       ];
       var name = Math.floor(Math.random() * names.length);
-      var athleteURL = "/data/strava/" + names[name] + ".json";
+      var athleteURL = base + "/data/strava/" + names[name] + ".json";
       var athleteReq = new XMLHttpRequest();
       var tweenProxy = {
         units: 0,

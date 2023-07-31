@@ -7,13 +7,13 @@
   </header>
   <section>
     <div>
-      <h5>HTML Canvas</h5>
+      <h3>HTML Canvas</h3>
       <article class="flex-horiz-stack">
         <a href="https://mattblackstone.com/digital-advertising/samsung/galaxy-s10/gamers/970x250/index.html">
           <img style="width: 194px; height: 50px;" src="https://mattblackstone.com/digital-advertising/samsung/galaxy-s10/gamers/970x250/backup.jpg" alt="Samsung ad preview" class="thumb" />
         </a>
         <div>
-          <h3><strong>Galaxy S10</strong> &ndash; Fortnite</h3>
+          <h5><strong>Galaxy S10</strong> &ndash; Fortnite</h5>
           <p>
             HTML5 introduced the Canvas element which is meant for direct pixel manipulation using Photoshop-like
             effects. A canvas can have a 2D or 3D drawing context. Animation can be acheived by drawing new images to
@@ -23,13 +23,13 @@
           </p>
         </div>
       </article>
-      <h5>CSS 3D</h5>
+      <h3>CSS 3D</h3>
       <article class="flex-horiz">
         <a href="https://mattblackstone.com/digital-advertising/samsung/galaxy-fold/kv-fold/300x600/index.html">
           <img style="width: 60px; height: 120px;" src="https://mattblackstone.com/digital-advertising/samsung/galaxy-fold/kv-fold/300x600/backup.jpg" alt="Samsung ad preview" class="thumb" />
         </a>
         <div>
-          <h3><strong>Galaxy Fold</strong> &ndash; Launch</h3>
+          <h5><strong>Galaxy Fold</strong> &ndash; Launch</h5>
           <p>
             All modern browsers have basic support CSS 3D. It's a bit convoluted to use, but has a tiny footprint
             compared to more robust Javascript 3D libraries. Although not true 3D, a lot can be acheived through careful
@@ -38,13 +38,13 @@
           </p>
         </div>
       </article>
-      <h5>After Effects &#43; Lottie</h5>
+      <h3>After Effects &#43; Lottie</h3>
       <article class="flex-horiz-stack">
         <a href="https://mattblackstone.com/digital-advertising/samsung/ugtg/screen/970x250/index.html">
           <img style="width: 194px; height: 50px;" src="https://mattblackstone.com/digital-advertising/samsung/ugtg/screen/970x250/backup.png" alt="Samsung ad preview" class="thumb" />
         </a>
         <div>
-          <h3><strong>Galaxy</strong> &ndash; Upgrade to Galaxy</h3>
+          <h5><strong>Galaxy</strong> &ndash; Upgrade to Galaxy</h5>
           <p>
             <a href="https://airbnb.io/lottie/">Lottie</a> is only a few years old but is gaining in popularity. After
             installing a plugin called <a href="https://aescripts.com/bodymovin/">Bodymovin</a> in After Effects,
@@ -56,13 +56,13 @@
           </p>
         </div>
       </article>
-      <h5>Sprite Animation</h5>
+      <h3>Sprite Animation</h3>
       <article class="flex-horiz">
         <a href="https://mattblackstone.com/digital-advertising/samsung/galaxy-s6/butterfly/index.html">
           <img style="width: 60px; height: 120px;" src="https://mattblackstone.com/digital-advertising/samsung/galaxy-s6/butterfly/backup.jpg" alt="Samsung ad preview" class="thumb" />
         </a>
         <div>
-          <h3><strong>Galaxy S6</strong> &ndash; Launch</h3>
+          <h5><strong>Galaxy S6</strong> &ndash; Launch</h5>
           <p>
             Sprite is a generic term for a small bitmap image (usually one of many images stitched together into one
             large image for better performance). This example uses image sequences stiched together into long strips
@@ -73,13 +73,13 @@
           </p>
         </div>
       </article>
-      <h5>Interactive Video</h5>
+      <h3>Interactive Video</h3>
       <article class="flex-horiz-stack">
         <a href="https://mattblackstone.com/digital-advertising/samsung/galaxy-fold/masthead-features/index.html">
           <img style="width: 194px; height: 50px;" src="https://mattblackstone.com/digital-advertising/samsung/galaxy-fold/masthead-features/backup.jpg" alt="Samsung ad preview" class="thumb" />
         </a>
         <div>
-          <h3><strong>Galaxy Fold</strong> &ndash; NYTimes Masthead</h3>
+          <h5><strong>Galaxy Fold</strong> &ndash; NYTimes Masthead</h5>
           <p>
             Ads containing video must be run on a rich media platform such as Google's DoubleClick Studio. This ad
             features a 'draggable' video that spawns smaller videos based on user interaction. 
@@ -91,3 +91,28 @@
     </div>
   </section>
 </main>
+
+<style lang="scss">
+  header, section, .flex-horiz, .flex-horiz-stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .thumb {
+    margin: 0 18px 0 0;
+    padding: 0;
+    border: none;
+    max-width: unset;
+  }
+
+  @media only screen and (max-width: 568px) {
+    header, section, .flex-horiz-stack {
+      flex-direction: column;
+    }
+
+    .flex-horiz-stack .thumb {
+      margin: 0 0 14px 0;
+    }
+  }
+</style>
