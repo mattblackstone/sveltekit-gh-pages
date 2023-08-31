@@ -10,10 +10,10 @@
   </header>
   <section>
     <div>
-      <h5>Overview</h5>
+      <h3>Overview</h3>
       <article class="flex-horiz">
         <div>
-          <h3>Motivation</h3>
+          <h5>Motivation</h5>
           <p>
             Automated workflows using custom scripted Google Sheets are extremely effective, but can be overwhelming. A
             well designed front-end view gives much more control over how the data is displayed. This makes the
@@ -24,7 +24,7 @@
       </article>
       <article class="flex-horiz">
         <div>
-          <h3>Tech Stack</h3>
+          <h5>Tech Stack</h5>
           <p>
             Google Sheets was already established as the primary workflow. We chose React for it's ability to render and
             sort long lists efficiently. The site also needed to run in an Amazon S3 environment, so Next.js was good
@@ -35,10 +35,17 @@
           </p>
         </div>
       </article>
-      <h5>Screen Recording</h5>
+      <h3>Screen Recording</h3>
       <article class="flex-horiz">
         <video preload="auto" muted controls src="{base}/video/instagram/ig-demo.mp4" poster="{base}/images/instagram/poster.png" />
       </article>
     </div>
   </section>
 </main>
+
+<style lang="scss">
+  video {
+    width: 100%;
+    height: 540px;
+  }
+</style>

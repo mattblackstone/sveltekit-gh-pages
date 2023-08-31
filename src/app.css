@@ -22,7 +22,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul, span {
 
 main {
   margin: auto;
-  max-width: 768px;
+  max-width: 960px;
   padding: 48px;
 }
 
